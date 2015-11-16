@@ -11,10 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151105085236) do
+ActiveRecord::Schema.define(version: 20151116042715) do
 
   create_table "calegs", force: true do |t|
     t.string   "peserta"
+    t.string   "nama_lengkap"
     t.integer  "laki_laki"
     t.integer  "perempuan"
     t.datetime "created_at"
